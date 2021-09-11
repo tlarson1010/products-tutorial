@@ -1,5 +1,5 @@
 import React from 'react';
-import { IoIosStar, IosIosStarOutline } from 'react-icons/io';
+import { IoIosStar, IoIosStarOutline } from 'react-icons/io';
 
 function Rating(props) {
     return (
