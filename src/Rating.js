@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { IoIosStar, IoIosStarOutline } from 'react-icons/io';
 
 function Rating(props) {
