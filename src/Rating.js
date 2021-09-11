@@ -17,7 +17,7 @@ function Rating(props) {
 
 
     return (
-        <div>
+        <div style={styles.starStyle}>
             <h1>Rating:{rating}</h1>
             {rating >= 1 ? (<IoIosStar onClick={() => setRating(1)}/>)
                 : (<IoIosStarOutline onClick={() => setRating(1)}/>)}
@@ -34,3 +34,9 @@ function Rating(props) {
 }
 
 export default Rating;
+
+const styles={
+    starStyle:{
+        color:'orange'
+    }
+}
